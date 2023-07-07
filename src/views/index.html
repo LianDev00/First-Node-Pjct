@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%=title%>
+  </title>
+  <%- include('partials/head.html') %>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+</head>
+
+<body>
+
+  <%- include('partials/navigation.html') %>
+
+    <!-- Principal -->
+    <section>
+      <div class="container fill-height">
+        <header class="row">
+          <div class="prin col-lg-12 text-center">
+            <img src="/img/logo_Lian.jpeg" class="animate__animated animate__fadeIn" alt="Lian">
+          </div>
+        </header>
+      </div>
+    </section>
+
+
+    <!-- Section One -->
+    <div class="container-fluid mb-5" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-sm-6">
+          <i class="fab fa-youtube fa-10x"></i>
+        </div>
+        <div class="col-sm-6">
+          <h3>Mi new Youtube channel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum porro expedita rem, quisquam quos
+            libero
+            nam quasi magni quas architecto sed possimus odio earum tempore accusamus incidunt velit. Nihil, error.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/footer.html')%>
+</body>
+
+</html>
